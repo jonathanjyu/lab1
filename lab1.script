@@ -1,0 +1,188 @@
+Script started on 2015年03月10日 (週二) 17時41分12秒
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ whoami;pwd
+F74031035
+/home/F74031035/lab1
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ ls
+lab1.script
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ git config l[K-l
+user.name=lovejyu
+user.email=f74031035@email.ncku.edu.tw
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ git clone https://github.com/lovejyu/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ cat lab1.script
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ mv lab1.script lab1
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ ls
+[0m[01;34mlab1[0m
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ ls
+[0m[01;34mlab1[0m
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ cd lab1
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ ls
+lab1.script
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git add lab1.sce[Kript
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git commit lab1.script
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".git/COMMIT_EDITMSG" 13L, 353C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i nor -o; assuming --only paths...
+# On branch [m[35mmaster[m
+[34m#
+# Initial commit
+#
+# [m[35mChanges to be committed:[m
+[34m#   (use "git rm --cached <file>..." to unstage)
+#
+#       [m[32mnew file[m[34m: [m[31m  lab1.script[m
+[34m#[m
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[8C全部[1;1H[?12l[?25h[?25l[24;1H[1m-- 插入 --[m[24;11H[K[24;63H2,1[10C頂端[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[10C全部[2;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H1,1[10C全部[1;1H[?12l[?25h[?25l[33mi[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mA[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mC[m[24;65H2[1;2H[?12l[?25h[?25l[33mCO[m[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mP[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mo[m[24;65H2[1;2H[?12l[?25h[?25l[33mor[m[24;65H3[1;3H[?12l[?25h[?25l[33mri[m[24;65H4[1;4H[?12l[?25h[?25l[33min[m[24;65H5[1;5H[?12l[?25h[?25l[33mng[m[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[33mig[m[24;65H5[1;5H[?12l[?25h[?25l[33mgn[m[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[33mgi[m[24;65H6[1;6H[?12l[?25h[?25l[33min[m[24;65H7[1;7H[?12l[?25h[24;1H[K[1;6H[?25l[24;63H1,6[10C全部[1;6H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 13L, 359C 已寫入
+[?1l>[?12l[?25h[?1049l[master (root-commit) 839a2c2] origin
+ 0 files changed
+ create mode 100644 lab1.script
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git pur[Ksu[Kh -u origin master
+Username for 'https://github.com': lovejyu
+Password for 'https://lovejyu@github.com': 
+To https://github.com/lovejyu/lab1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ exit
+
+Script done on 2015年03月10日 (週二) 17時48分38秒
+031035@2015cpp:~/lab1/lab1$ git commit lab1.script
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".git/COMMIT_EDITMSG" 13L, 353C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i nor -o; assuming --only paths...
+# On branch [m[35mmaster[m
+[34m#
+# Initial commit
+#
+# [m[35mChanges to be committed:[m
+[34m#   (use "git rm --cached <file>..." to unstage)
+#
+#       [m[32mnew file[m[34m: [m[31m  lab1.script[m
+[34m#[m
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[8C全部[1;1H[?12l[?25h[?25l[24;1H[1m-- 插入 --[m[24;11H[K[24;63H2,1[10C頂端[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[10C全部[2;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H1,1[10C全部[1;1H[?12l[?25h[?25l[33mi[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mA[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mC[m[24;65H2[1;2H[?12l[?25h[?25l[33mCO[m[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mP[m[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l[33mo[m[24;65H2[1;2H[?12l[?25h[?25l[33mor[m[24;65H3[1;3H[?12l[?25h[?25l[33mri[m[24;65H4[1;4H[?12l[?25h[?25l[33min[m[24;65H5[1;5H[?12l[?25h[?25l[33mng[m[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[33mig[m[24;65H5[1;5H[?12l[?25h[?25l[33mgn[m[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[33mgi[m[24;65H6[1;6H[?12l[?25h[?25l[33min[m[24;65H7[1;7H[?12l[?25h[24;1H[K[1;6H[?25l[24;63H1,6[10C全部[1;6H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 13L, 359C 已寫入
+[?1l>[?12l[?25h[?1049l[master (root-commit) 839a2c2] origin
+ 0 files changed
+ create mode 100644 lab1.script
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git pur[Ksu[Kh -u origin master
+Username for 'https://github.com': lovejyu
+Password for 'https://lovejyu@github.com': 
+To https://github.com/lovejyu/lab1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ exit
+Script done, file is lab1.script
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ script lab1.script[11Pcd lab1[3@mkdir[C[C[C[C[Cgit config -l-global user.email "f74031035@email.ncku.eddu.tw"[A]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pname "lovejyu"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit config --global user.name "lovejyu"email "f74031035@email.ncku.eddu.tw"[A]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ [C[C[C[C[C[C[C[C[C[C[C[Cl[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmkdir lab1[3Pcd[C[C[C[C[Cscript lab1.script[Kscript lab1.script[Kscript lab1.script[Kgi t[K[K[Kt[Kit push [K[K[K[K[K[K al[Kdd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74031035@2015cpp: ~/lab1F74031035@2015cpp:~/lab1$ ced[K\[K[Kd lab1
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git add lab1.c[Kscript
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git add lab1.script[12Pcd lab1git add lab1.script[1Pscript[C[C[C[C[C[C[C[C[C[C[C[C[11Pcd lab1[3@mkdir[C[C[C[C[Cgit config -l-global user.email "f74031035@email.nccku.edu.tw"[A]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pname "lovejyu"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpush -u orin[Kgin master
+Username for 'https://github.com': lovejtyuy    yu
+Password for 'https://lovejyu@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ git push -u origin master[6Padd lab1.scriptpush -u origin master[1P[1P[1P
+Username for 'https://github.com': lovejyu
+Password for 'https://lovejyu@github.com': 
+Everything up-to-date
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ ls
+lab1.script
+]0;F74031035@2015cpp: ~/lab1/lab1F74031035@2015cpp:~/lab1/lab1$ vi lab1.c[Kscript
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"lab1.script" [noeol] 77L, 8192C[>c[1;1HScript started on 2015年03月10日 (週二) 17時41分12秒
+[34m^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ whoami;pwd[34m^M[m
+F74031035[34m^M[m
+/home/F74031035/lab1[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ ls[34m^M[m
+lab1.script[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ git config l[34m^H^[[m[K-l[34m^M[m[8;1Huser.name=lovejyu[34m^M[m
+user.email=f74031035@email.ncku.edu.tw[34m^M[m
+core.repositoryformatversion=0[34m^M[m
+core.filemode=true[34m^M[m
+core.bare=false[34m^M[m
+core.logallrefupdates=true[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ git clone https://githh[15;1Hub.com/lovejyu/lab1.git[34m^M[m
+Cloning into 'lab1'...[34m^M[m
+warning: You appear to have cloned an empty repository.[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ cat lab1.script[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ mv lab1.script lab1[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ ls[34m^M
+^[[m[0m[34m^[[m[01;34mlab1[34m^[[m[0m[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ ls[34m^M
+^[[m[0m[34m^[[m[01;34mlab1[34m^[[m[0m[34m^M[m[24;63H1,1[10C頂端[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2[12;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[16;1H[?12l[?25h[?25l[24;64H6[17;1H[?12l[?25h[?25l[24;64H7[18;1H[?12l[?25h[?25l[24;64H8[19;1H[?12l[?25h[?25l[24;64H9[20;1H[?12l[?25h[?25l[24;63H20[21;1H[?12l[?25h[?25l[24;64H1[22;1H[?12l[?25h[?25l[24;64H2[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1[34m^G[mF74031035@2015cpp:~/lab1$ cd lab1[34m^M[m[24;1H[K[24;63H23,1[11C1%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ ls[34m^M[m[24;63H[K[24;63H24,1[11C3%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlab1.script[34m^M[m[24;63H[K[24;63H25,1[11C5%[23;1H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git add lab11[23;1H.sce[34m^H^[[m[Kript[34m^M[m[24;63H[K[24;63H26,1[11C8%[22;1H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git commit ll[23;1Hab1.script[34m^M[m[24;63H[K[24;63H27,1[10C12%[22;1H[?12l[?25h[?25l[1;23r[1;1H[3M[1;24r[21;1H[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[22[22;1H4;1H".git/COMMIT_EDITMSG" 13L, 353C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[34m# Please enter the commit mm[23;1Hessage for your changes. Lines starting[34m^M[m[24;63H[K[24;63H28,1[10C16%[21;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# with '#' will be ignored, and an empty message aborts the commit.[34m^M[m[24;63H[K[24;63H29,1[10C18%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# Explicit paths specified without -i nor -o; assuming --only paths...[34m^M[m[24;63H[K[24;63H30,1[10C20%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# On branch [34m^[[m[m[34m^[[m[35mmaster[34m^[[m[m[34m^M[m[24;63H[K[24;63H31,1[10C22%[23;1H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H[34m^[[m[34m#[34m^M[m
+# Initial commit[34m^M[m[24;63H[K[24;63H32,1[10C24%[22;1H[?12l[?25h[?25l[24;64H3[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#[34m^M[m[24;63H[K[24;63H34,1[10C25%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# [34m^[[m[m[34m^[[m[35mChanges to be committed:[34m^[[m[m[34m^M[m[24;63H[K[24;63H35,1[10C27%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m^[[m[34m#   (use "git rm --cached <file>..." to unstage)[34m^M[m[24;63H[K[24;63H36,1[10C29%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#[34m^M[m[24;63H[K[24;63H37,1[10C31%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#       [34m^[[m[m[34m^[[m[32mnew file[34m^[[m[m[34m^[[m[34m: [34m^[[m[m[34m^[[m[31m  lab1.script[34m^[[m[m[34m^M[m[24;63H[K[24;63H38,1[10C32%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m^[[m[34m#[34m^[[m[m[34m^M[m[24;63H[K[24;63H39,1[10C34%[23;1H[?12l[?25h[?25l[1;23r[1;1H[14M[1;24r[10;1H[34m^[[m[1m[34m^[[m[34m~[67C  [11;1H [9C [34m^[[m[15;1H~[59C  [12;1H [17C [34m^[[m[16;1H~[51C  [13;1H [25C [34m^[[m[17;1H~[43C  [14;1H [33C [34m^[[m[18;1H~[35C  [15;1H [41C [34m^[[m[19;1H~[27C  [16;1H [49C [34m^[[m[20;1H~[19C  [17;1H [57C [34m^[[m[21;1H~[11C  [18;1H [65C [34m^[[m[22;1H~     [19;1H [73C [34m^[[m[233[20;1H;1H~[75C  [21;1H   [34m^[[m[m[34m^[[m[24;63H1,0-1[34m^[[m[8C全部[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;1H[34m^[[m[1m-- 插入 --[22;1H-[34m^[[m[m[34m^[[m[24;11H[34m^[[m[K[34m^[[m[24;63H2,1[34m^[[m[10C頂端[34m^[[m[2;23r[34m^[[m[2;1H[34m^[[m[L[34m^[[m[1;24r[34m^[[m[24;63H[34m^[[m[KK[23;1H[34m^[[m[24;63H2,1[34m^[[m[10C全部[34m^[[m[2;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;23r[34m^[[m[23;1H[34m^M[m[24;63H[K[24;63H40,1[10C44%[10;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[34m^[[m[1;24r[34m^[[m[23;1H[34m^[[m[1m[34m^[[m[34m~[51C  [2;1H [25C [34m^[[m[m[34m^[[m[24;63H[34m^[[m[K[34m^[[m[24;63H1,1[34m^[[m[10C全部[34m^[[m[1;1H[34m^[[m[?12ll[3;1H[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mi[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;;[4;1H65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mA[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[5;1Hl[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mC[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[[m[6;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mCO[34m^[[m[m[34m^[[m[24;65H3[34m^[[m[1;3H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;2H[34m^[[[m[7;1H[K[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?22[8;1H5h[34m^[[m[?25l[34m^[[m[33mP[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^^[9;1H[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mo[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[[m[10;1H[33mor[34m^[[m[m[34m^[[m[24;65H3[34m^[[m[1;3H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mri[34m^[[m[m[34m^[[m[24;65H4[34m^[[m[1;4H[34m^^[11;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33min[34m^[[m[m[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mm[12;1Hng[34m^[[m[m[34m^[[m[24;65H6[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;5H[34m^[[m[K[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^^[13;1H[[m[?25h[34m^[[m[?25l[34m^[[m[1;4H[34m^[[m[K[34m^[[m[24;65H4[34m^[[m[1;4H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mig[34m^[[m[m[34m^[[m[22[14;1H4;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mgn[34m^[[m[m[34m^[[m[24;65H6[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^^[15;1H[[m[?25l[34m^[[m[1;5H[34m^[[m[K[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mgi[34m^[[m[m[34m^[[m[24;65H6[34m^^[16;1H[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33min[34m^[[m[m[34m^[[m[24;65H7[34m^[[m[1;7H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[24;1HH[17;1H[34m^[[m[K[34m^[[m[1;6H[34m^[[m[?25l[34m^[[m[24;63H1,6[34m^[[m[10C全部[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;63H[34m^[[m[[[18;1HK[34m^[[m[24;1H:[34m^[[m[?12l[34m^[[m[?25hw[34m^[[m[?25l[34m^[[m[?12l[34m^[[m[?25hq[34m^[[m[?25l[34m^[[m[?12l[34m^[[m[?25h[34m^M^[[m[?25l".gg[19;1Hit/COMMIT_EDITMSG" 13L, 359C 已寫入[34m^M^M^M
+^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049l[master (root-commit) 839a2c2] origin[34m^M[m
+ 0 files changed[34m^M[m
+ create mode 100644 lab1.script[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git pur[34m^H^[[m[[23;1H[1m[34m@                                                                               [m[24;63H41,1[10C54%[1;1H[?12l[?25h[?25l[24;64H2[20;1H[?12l[?25h[?25l[24;64H3[21;1H[?12l[?25h[?25l[24;64H4[22;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git pur[34m^H^[[m[[[5;1HKsu[34m^H^[[m[Kh -u origin master[34m^M[m
+Username for 'https://github.com': lovejyu[34m^M[m
+Password for 'https://lovejyu@github.com': [34m^M[m
+To https://github.com/lovejyu/lab1.git[34m^M[m
+ * [new branch]      master -> master[34m^M[m
+Branch master set up to track remote branch master from origin.[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ exit[34m^M[m
+
+Script done on 2015年03月10日 (週二) 17時48分38秒
+031035@2015cpp:~/lab1/lab1$ git commit lab1.script[34m^M
+^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[22[16;1H4;1H".git/COMMIT_EDITMSG" 13L, 353C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[34m# Please enter the commit mm[17;1Hessage for your changes. Lines starting[34m^M[m
+# with '#' will be ignored, and an empty message aborts the commit.[34m^M[m
+# Explicit paths specified without -i nor -o; assuming --only paths...[34m^M[m
+# On branch [34m^[[m[m[34m^[[m[35mmaster[34m^[[m[m[34m^M
+^[[m[34m#[34m^M[m
+# Initial commit[34m^M[m
+#[34m^M[m[24;63H[K[24;63H45,1[10C71%[4;1H[?12l[?25h[?25l[24;64H6[6;1H[?12l[?25h[?25l[24;64H7[7;1H[?12l[?25h[?25l[24;64H8[8;1H[?12l[?25h[?25l[24;64H9[9;1H[?12l[?25h[?25l[24;63H50[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2,0-1[12;1H[?12l[?25h[?25l[24;64H3,1  [13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[18;1H[?12l[?25h[?25l[24;64H7[19;1H[?12l[?25h[?25l[24;64H8[20;1H[?12l[?25h[?25l[24;64H9[21;1H[?12l[?25h[?25l[24;63H60[22;1H[?12l[?25h[?25l[24;64H1[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H# [34m^[[m[m[34m^[[m[35mChanges to be committed:[34m^[[m[m[34m^M[m[24;63H[K[24;63H62,1[10C73%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m^[[m[34m#   (use "git rm --cached <file>..." to unstage)[34m^M[m[24;63H[K[24;63H63,1[10C75%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H#[34m^M[m[24;63H[K[24;63H64,1[10C77%[23;1H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H#       [34m^[[m[m[34m^[[m[32mnew file[34m^[[m[m[34m^[[m[34m: [34m^[[m[m[34m^[[m[31m  lab1.script[34m^[[m[m[34m^M
+^[[m[34m#[34m^[[m[m[34m^M[m[24;63H[K[24;63H65,1[10C80%[22;1H[?12l[?25h[?25l[24;64H6[23;1H[?12l[?25h[?25l[1;23r[1;1H[14M[1;24r[10;1H[34m^[[m[1m[34m^[[m[34m~[67C  [11;1H [9C [34m^[[m[15;1H~[59C  [12;1H [17C [34m^[[m[16;1H~[51C  [13;1H [25C [34m^[[m[17;1H~[43C  [14;1H [33C [34m^[[m[18;1H~[35C  [15;1H [41C [34m^[[m[19;1H~[27C  [16;1H [49C [34m^[[m[20;1H~[19C  [17;1H [57C [34m^[[m[21;1H~[11C  [18;1H [65C [34m^[[m[22;1H~     [19;1H [73C [34m^[[m[233[20;1H;1H~[75C  [21;1H   [34m^[[m[m[34m^[[m[24;63H1,0-1[34m^[[m[8C全部[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;1H[34m^[[m[1m-- 插入 --[22;1H-[34m^[[m[m[34m^[[m[24;11H[34m^[[m[K[34m^[[m[24;63H2,1[34m^[[m[10C頂端[34m^[[m[2;23r[34m^[[m[2;1H[34m^[[m[L[34m^[[m[1;24r[34m^[[m[24;63H[34m^[[m[KK[23;1H[34m^[[m[24;63H2,1[34m^[[m[10C全部[34m^[[m[2;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;23r[34m^[[m[23;1H[34m^M[m[24;63H[K[24;63H67,1[10C85%[10;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[34m^[[m[1;24r[34m^[[m[23;1H[34m^[[m[1m[34m^[[m[34m~[51C  [2;1H [25C [34m^[[m[m[34m^[[m[24;63H[34m^[[m[K[34m^[[m[24;63H1,1[34m^[[m[10C全部[34m^[[m[1;1H[34m^[[m[?12ll[3;1H[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mi[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;;[4;1H65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mA[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[5;1Hl[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mC[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[[m[6;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mCO[34m^[[m[m[34m^[[m[24;65H3[34m^[[m[1;3H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;2H[34m^[[[m[7;1H[K[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?22[8;1H5h[34m^[[m[?25l[34m^[[m[33mP[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;1H[34m^[[m[K[34m^[[m[24;65H1[34m^^[9;1H[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[33mo[34m^[[m[m[34m^[[m[24;65H2[34m^[[m[1;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[[m[10;1H[33mor[34m^[[m[m[34m^[[m[24;65H3[34m^[[m[1;3H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mri[34m^[[m[m[34m^[[m[24;65H4[34m^[[m[1;4H[34m^^[11;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33min[34m^[[m[m[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mm[12;1Hng[34m^[[m[m[34m^[[m[24;65H6[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;5H[34m^[[m[K[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^^[13;1H[[m[?25h[34m^[[m[?25l[34m^[[m[1;4H[34m^[[m[K[34m^[[m[24;65H4[34m^[[m[1;4H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mig[34m^[[m[m[34m^[[m[22[14;1H4;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mgn[34m^[[m[m[34m^[[m[24;65H6[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^^[15;1H[[m[?25l[34m^[[m[1;5H[34m^[[m[K[34m^[[m[24;65H5[34m^[[m[1;5H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33mgi[34m^[[m[m[34m^[[m[24;65H6[34m^^[16;1H[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[33min[34m^[[m[m[34m^[[m[24;65H7[34m^[[m[1;7H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[24;1HH[17;1H[34m^[[m[K[34m^[[m[1;6H[34m^[[m[?25l[34m^[[m[24;63H1,6[34m^[[m[10C全部[34m^[[m[1;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;63H[34m^[[m[[[18;1HK[34m^[[m[24;1H:[34m^[[m[?12l[34m^[[m[?25hw[34m^[[m[?25l[34m^[[m[?12l[34m^[[m[?25hq[34m^[[m[?25l[34m^[[m[?12l[34m^[[m[?25h[34m^M^[[m[?25l".gg[19;1Hit/COMMIT_EDITMSG" 13L, 359C 已寫入[34m^M^M^M
+^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049l[master (root-commit) 839a2c2] origin[34m^M[m
+ 0 files changed[34m^M[m
+ create mode 100644 lab1.script[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git pur[34m^H^[[m[[23;1H[1m[34m@                                                                               [m[24;63H68,1[10C91%[1;1H[?12l[?25h[?25l[24;64H9[20;1H[?12l[?25h[?25l[24;63H70[21;1H[?12l[?25h[?25l[24;64H1[22;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1H[34m^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git pur[34m^H^[[m[[[5;1HKsu[34m^H^[[m[Kh -u origin master[34m^M[m
+Username for 'https://github.com': lovejyu[34m^M[m
+Password for 'https://lovejyu@github.com': [34m^M[m
+To https://github.com/lovejyu/lab1.git[34m^M[m
+ * [new branch]      master -> master[34m^M[m
+Branch master set up to track remot
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H[K[24;63H72,1[9C底端[4;1H[?12l[?25h[?25l[24;64H3[6;1H[?12l[?25h[?25l[24;64H4[7;1H[?12l[?25h[?25l[24;64H5[8;1H[?12l[?25h[?25l[24;64H6[9;1H[?12l[?25h[?25l[24;64H7[10;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"lab1.script"
+[1m[37m[41m警告: 本檔案自上次讀入後已變動!!![m
+[32m確定要寫入嗎 (y/n)?[?12l[?25h[mn
+[32mPress ENTER or type command to continue[m[1;1H[3L[?25l[1;1H[34m^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049l[master (root-commit) 839a2c2] origin[34m^M[m
+ 0 files changed[34m^M[m
+ create mode 100644 lab1.script[34m^M[m[24;1H[K[24;63H77,1[9C底端[10;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25h![?25l[?12l[?25hq[?25l[?12l[?25h[?25l:!q[?1l>[?12l[?25h[?1049l
+/bin/bash: q: command not found
+
+Shell 已返回127
+
+Press ENTER or type command to continue[?1049h[?1h=[24;1H
+[32mW11: 警告: 檔案 "lab1.script" 自上次讀入後已變動[m
+[32m進一步說明請見 ":help W11"。[m
+[32m確定([O]), 載入檔案((L)): [m[24;1H[K[27m[m[H[2J[?25l[1;1H[34m^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049l[master (root-commit) 839a2c2] origin[34m^M[m
+ 0 files changed[34m^M[m
+ create mode 100644 lab1.script[34m^M
+^[[m]0;F74031035@2015cpp: ~/lab1/lab1[34m^G[mF74031035@2015cpp:~/lab1/lab1$ git pur[34m^H^[[m[[[5;1HKsu[34m^H^[[m[Kh -u origin master[34m^M[m
+Username for 'https://github.com': lovejyu[34m^M[m
+Password for 'https://lovejyu@github.com': [34m^M[m
+To https://github.com/lovejyu/lab1.git[34m^M[m
+ * [new branch]      master -> master[34m^M[m
+Branch master set up to track remot
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H77,1[9C底端[10;1H[?12l[?25h[?25l[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l
